@@ -1,27 +1,26 @@
-*{
+* {
     background: rgb(10, 9, 9);
 }
 
-h1, h2{
+h1, h2 {
     color: white;
     text-align: center;
     padding: 10px;
 }
 
-h1{
+h1 {
     margin-top: 40px;
 }
 
-
-
-section.linketree{
+section.linktree {
     padding: 40px 4%;
     text-align: center;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-.item{
+.item {
     border: 5px solid rgb(102, 100, 100);
     border-radius: 30px;
     color: rgb(161, 160, 160);
@@ -29,19 +28,26 @@ section.linketree{
     margin: 10px;
     height: 40px;
     transition: box-shadow 0.3s;
+    text-align: center;
 }
 
-.item:hover{
-    box-shadow: 0 0 10px white ;
+.item:hover {
+    box-shadow: 0 0 10px white;
 }
 
-.link{
+.link {
     text-decoration: none;
     color: white;
     font-size: 28px;
     display: block;
- }
+}
 
-span{
+span {
     color: #00FF08;
+}
+
+@media (max-width: 768px) {
+    .item {
+        display: flex;
+    }
 }
