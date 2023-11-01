@@ -96,8 +96,8 @@ header nav.menu-desktop ul li{
     color: #000000;
 }
 .top .img-me{
-    max-height: 500px;
-    max-width: 500px;
+    max-height: 75vh;
+    max-width: 75vw;
 }
 
 section.top{
