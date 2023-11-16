@@ -453,9 +453,13 @@ footer .line-footer p a{
     .top h1{
         font-size: 30px;
     }
+
+    .top p{
+        font-size: 17px;
+    }
     
     section.top{
-        padding: 20px 8%;
+        padding: 20px 10%;
     }
 
     section.top .flex{
